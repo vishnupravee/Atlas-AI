@@ -7,7 +7,9 @@ import ModelViewer from './ModelViewer';
 const HolographicUI = () => {
   return (
     <div className="holo-container pb-5">
-     <ModelViewer />
+     
+  <ModelViewer />
+
       <div className="button-grid">
         <NeonButton text="Home" />
         <NeonButton text="AI Services" />

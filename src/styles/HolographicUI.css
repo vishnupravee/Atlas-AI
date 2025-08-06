@@ -67,6 +67,8 @@
 
   .holo-container {
     padding-bottom: 20px;
+     background: none; /* or transparent gradient */
+  position: relative;
   }
 }
 
@@ -75,3 +77,4 @@
     grid-template-columns: 1fr;
   }
 }
+
