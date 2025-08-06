@@ -76,6 +76,7 @@
 import React, { useRef, useEffect, Suspense } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { useGLTF } from '@react-three/drei';
+import '../styles/ModelViewer.css'
 
 const Model = ({ mouse }) => {
   const gltf = useGLTF('/AI_Visage_0720113618_texture.glb');
